@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TNrt1dvT5XAUBWLLbWKEfraO2ORJ9hvFdcBtPUPft+HYQszCHP8KUMrEDU9Vrooop2kqgBB2QBpwK4mxcHhEiA==",
+  "dgSpecHash": "7D2Oyggw5gBwAlZtzhZHp+Gqd1FF6C43K2WFKQ0yWjT06wEjODxmmefY4LkFba4xc2/Y5u51Gontkkm56KaUrw==",
   "success": true,
-  "projectFilePath": "C:\\Data\\Harvard\\T4SG\\f22-t4sg-starter\\WebAPIClient\\WebAPIClient.csproj",
+  "projectFilePath": "/Users/paritashah/Desktop/f22-cambridge-starter/WebAPIClient/WebAPIClient.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

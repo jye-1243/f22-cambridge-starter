@@ -24,6 +24,8 @@ app.MapGet("/articles/{id}", (int id) => ArticleDB.GetArticle(id));
 app.MapGet("/articles", () => ArticleDB.GetArticles());
 app.MapPost("/articles", (string title, string date, string author) => ArticleDB.CreateArticle(title, date, author));
 app.MapDelete("/articles/{id}", (int id) => ArticleDB.RemoveArticle(id));
-
-
+app.MapPut("/updatedfield", (int id, string field, string update) => ArticleDB.UpdateArticle(id, field, update));
+app.MapPut("/updatedarticle", (int id, string title, string date, string author) => ArticleDB.UpdateEntireArticle(id, title, date, author));
+app.MapGet("/filteredarticles", (string field, string keyword) => ArticleDB.GetFilteredArticles(field, keyword));
+app.MapDelete("/filtereddelete", (string field, string keyword) => ArticleDB.RemoveArticles(field, keyword));
 app.Run();
